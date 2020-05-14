@@ -414,6 +414,17 @@ h1 {
 /* Pricing End */
 
 /* Testimonials */
+.testimonials h1{
+    text-align: center;
+}
+.testimonials .line{
+    border: 1px solid #FF8B38;
+}
+.testimonials p{
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+}
 
 /* Testiminials End */
 
