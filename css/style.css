@@ -411,17 +411,64 @@ h1 {
     padding: 13px 0 15px 0;
 
 }
+
 /* Pricing End */
 
 /* Testimonials */
-.testimonials h1{
+.testimonials h1 {
     text-align: center;
+    padding-top: 108px;
 }
-.testimonials .line{
+
+.testimonials .line {
     border: 1px solid #FF8B38;
 }
-.testimonials p{
+
+.testimonials .testimonials__text {
     text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    padding-bottom: 55px;
+}
+
+.testimonials .review {
+    width: 273px;
+    padding-bottom: 100px;
+}
+
+.testimonials .review:nth-child(1) {
+    margin-left: 35px;
+}
+
+.testimonials .review:nth-child(2) {
+    margin: 0 120px;
+}
+
+.testimonials .review:nth-child(3) {
+    margin-right: 35px;
+}
+
+.review .review__comment {
+    position: relative;
+    width: 100%;
+}
+
+.review .review__comment p {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    color: #86878B;
+    font-size: 14px;
+    padding: 21px 12px 41px 12px;
+}
+
+.review__name {
+    float: right;
+    margin: 20px 100px 0 0;
+}
+
+.review .review__name p {
+    margin-top: 8px;
     color: #86878B;
     font-size: 14px;
 }
