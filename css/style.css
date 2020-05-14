@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .logic {
@@ -15,7 +16,11 @@
 ul {
     list-style-type: none;
 }
-
+.line {
+    border: 1px solid #FF8B38;
+    width: 74px;
+    margin: 26px auto;
+}
 p,
 h2,
 h3,
@@ -101,6 +106,7 @@ h1 {
 }
 
 .header .line {
+    border: 1px solid #FFFFFF;
     margin: 36px 0 30px 0;
 }
 
@@ -141,7 +147,7 @@ h1 {
     border-bottom: 1px solid #D6D6D6;
     font-size: 14px;
     color: #BDBDBD;
-    padding-bottom: 9px;
+    padding: 9px;
     margin-top: 40px;
 }
 
@@ -349,10 +355,7 @@ h1 {
     text-align: center;
 }
 
-.pricing .line {
-    border: 1px solid #FF8B38;
 
-}
 
 .block-slot h3 {
     text-align: center;
@@ -420,9 +423,7 @@ h1 {
     padding-top: 108px;
 }
 
-.testimonials .line {
-    border: 1px solid #FF8B38;
-}
+
 
 .testimonials .testimonials__text {
     text-align: center;
@@ -480,7 +481,9 @@ h1 {
     background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/customs.png") no-repeat;
     text-align: center;
 }
-
+.customs .line{
+    border: 1px solid #FFFFFF;
+}
 .customs h1 {
     color: #FFFFFF;
     padding-top: 76px;
@@ -492,17 +495,60 @@ h1 {
     opacity: 0.8;
     margin-bottom: 32px;
 }
-
-.line {
-    border: 1px solid #FFFFFF;
-    width: 74px;
-    margin: 26px auto;
-}
-
 /* Custom Section End */
 
 /* Contacts Us */
+.contact h1{
+    text-align: center;
+    padding-top: 108px;
+}
+.contact p{
+    text-align: center;
+    color: #86878B;
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+form{
+    width: 100%;
+    text-align: center;
+}
+.contact .mail-form{
+    width: 520px;
+    margin-bottom: 44px;
+    
+}
+.contact .mail-form:nth-child(1){
+    margin-bottom: 0;
+    margin-right: 67px;
+}
 
+.contact .mail-form input{
+    width: 520px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    float: left;
+    margin-top: 30px;
+    color: #333333;
+}
+.contact .mail-form input::placeholder , textarea::placeholder{
+    color: #B7B7B7;
+}
+.contact__form textarea{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
+    font-size: 14px;
+    width: 520px;
+}
+.contact .btn-don{
+    width: 121px;
+    border-radius: 5%;
+    background-color: #FF8B38;
+    border: none;
+    margin-bottom: 95px;
+}
 /* Contacts Us End */
 
 /* Footer */
